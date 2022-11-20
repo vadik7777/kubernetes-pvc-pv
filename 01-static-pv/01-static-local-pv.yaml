@@ -17,5 +17,5 @@ spec:
           operator: In
           values:
           # - node2.kryukov.local
-          - node3.kryukov.local
+          - node3.cluster.local
   persistentVolumeReclaimPolicy: Retain
