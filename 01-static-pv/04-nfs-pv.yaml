@@ -9,5 +9,5 @@ spec:
     storage: 1Gi
   nfs:
     path: /var/k8s/logs/static-pv
-    server: 192.168.218.53
+    server: 172.16.16.8
   persistentVolumeReclaimPolicy: Retain
