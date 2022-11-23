@@ -28,7 +28,7 @@ spec:
               mountPath: /persistentvolumes
           env:
             - name: PROVISIONER_NAME
-              value: vadik.local/nfs
+              value: vadik.cluster.local/nfs
             - name: NFS_SERVER
               value: 172.16.16.8
             - name: NFS_PATH
