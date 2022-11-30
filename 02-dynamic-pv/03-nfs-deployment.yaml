@@ -33,6 +33,13 @@ spec:
               value: 172.16.16.8
             - name: NFS_PATH
               value: /var/k8s/logs/auto-pv
+          resources:
+            requests:
+              cpu: 50m
+              memory: 50Mi
+            limits:
+              cpu: 100m
+              memory: 100Mi
       volumes:
         - name: nfs-client-root
           nfs:
